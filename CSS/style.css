@@ -2,12 +2,43 @@
 	margin: 0;
 	padding: 0;
 }
-ul {
+.background{
+	background:url("../IMAGES/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+ul{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+}
+nav{
+	padding-top: 1.5%;
+	display: block;
+	padding-bottom: 2%;
 }
 li {
-    display: inline;
     float: right;
+}
+li,a{
+	font-family: 'Signika', sans-serif;
+	text-decoration: none;
+	padding-right: 3%;
+	padding-top: 2%;
+	color: white;
+	text-align: center;
+	font-size: 120%;
+}
+.firstelt{
+	padding-right: 4%;
+}
+
+a:hover{
+	border-spacing: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 4px;
+	padding:6%;
+}
+.main{
+	padding-top: 10%;
 }
