@@ -2,6 +2,12 @@
 	margin: 0;
 	padding: 0;
 }
+.line{
+	margin-right: 23%;
+	margin-left: 23%;
+	height:1.5px;
+	background-color: white;
+}
 .background{
 	background:url("../IMAGES/background.jpg");
 	background-repeat: no-repeat;
@@ -93,21 +99,17 @@ hr{
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-bottom: 0%;
-	background-image: url("../IMAGES/back2.jpg");
-		background-repeat: no-repeat;
+	background-image: url("../IMAGES/back02.jpg");
+	background-repeat: no-repeat;
 	background-size: 100% 100%;    
 
 }
 .box{
-	border: 0.1%;
+	flex:1 1;
 	border: lightgrey solid;
-	width: 25%;
-	height: 460px;
+	height: 450px;
 	padding: 0.5%;
-	margin-top: 40px;
-	margin-right:4%;
-	margin-left: 2%;
-	display: inline-block;
+	margin-right:5.5%;
 	background-color: transparent;
 }
 .mainimg{
@@ -121,11 +123,12 @@ hr{
 	transform: scale(1.02);
 }
 .imgtxt{
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 175%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 205%;
 	padding-top: 8%;
 	text-align: center;
 	color: white;
+	font-weight: bold;
 }
 .box:hover{
 	transition: 0.3s;
@@ -219,10 +222,62 @@ div h3{
 	padding-right: 5%;
 }
 .skills{
-	flex-grow: 1;
+	flex: 1 1;
 	text-align: center;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 225%;
 	color: white;
 	padding-top: 15%;
+}
+.iback{
+	background-image: url("../IMAGES/Interests.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.interests{
+	display:flex;
+	flex-wrap: wrap;
+}
+.icons{
+	width:150px;
+	height:150px;
+}
+.int{
+	text-align: center;
+	flex: 1 1;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+.rmback{
+	background-image: url("../IMAGES/reachme.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.odiv{
+	margin-top:4%;
+	margin-bottom: 4%;
+}
+.add{
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 225%;
+	color: white;
+	padding-top: 5%;
+	padding-bottom: 3%;
+}
+.contact{
+	display:flex;
+	flex-wrap: wrap;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 3%;
+}
+.social{
+	flex:1 1;
+	text-align: center;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 200%;
 }
