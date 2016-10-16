@@ -1,14 +1,9 @@
+/*INDEX.html*/
 *{
 	margin: 0;
 	padding: 0;
 }
-.line{
-	margin-right: 23%;
-	margin-left: 23%;
-	height:1.5px;
-	background-color: white;
-}
-.background{
+.mainbackground{
 	background:url("../IMAGES/background.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -37,7 +32,13 @@ li:hover{
 li a:hover{
 		cursor: pointer;
 }
-.main{
+.line{
+	margin-right: 23%;
+	margin-left: 23%;
+	height:1.5px;
+	background-color: white;
+}
+.mainmargin{
 	margin-top: 8%;
 }
 h2{
@@ -51,7 +52,7 @@ h2{
 	font-family: 'Antic', sans-serif;
 	border-bottom: 2px solid white;
 }
-button{
+div button{
 	margin-top: 2%;
 	margin-bottom: 2%;
 	margin-right: 1.5%;
@@ -67,7 +68,6 @@ button{
 	background: transparent;
 }
 button:hover{
-	transition: 0.2s;
 	cursor: pointer;
 }
 hr{
@@ -83,7 +83,6 @@ hr{
 	margin-right: 13%;
 	font-family: 'Titillium Web', sans-serif;
 	text-align: center;
-
 }
 .final{
 	background-image:url("../IMAGES/footer.jpg");
@@ -94,23 +93,26 @@ hr{
 	width:6%; 
 	height:6%;
 }
-.images{
+.imagecont{
 	padding-top: 3%;
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-bottom: 0%;
-	background-image: url("../IMAGES/back02.jpg");
+	background-image: url("../IMAGES/newb.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;    
 
 }
-.box{
+.imgbox{
 	flex:1 1;
 	border: lightgrey solid;
 	height: 450px;
 	padding: 0.5%;
 	margin-right:5.5%;
+	min-width: 280px;
+	max-width: 380px;
 	background-color: transparent;
+	margin-bottom: 2%;
 }
 .mainimg{
 	width:100%;
@@ -130,24 +132,42 @@ hr{
 	color: white;
 	font-weight: bold;
 }
-.box:hover{
+.imgbox:hover{
 	transition: 0.3s;
 	box-shadow: 0 12px 16px 0 rgba(100,100,100,0.24), 0 17px 50px 0 rgba(100,100,100,0.19);
 }
-.pback{
+
+
+
+/*PORTFOLIO.html*/
+.portback{
 	background-image: url("../IMAGES/Portfolio.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.cont{
-	flex: 1,1,50%;
+.portbox{
+	flex: 1 1 50%;
 	padding: 3%;
+	min-width: 500px;
+	max-width: 44%;
+	text-align: center;
 }
-.port{
+.portcont{
 	display: flex;
-	flex-wrap:nowrap;
-	margin-top: 8%;
-	margin-bottom: 11%;
+	flex-wrap:wrap;
+	margin-top: 7%;
+	margin-bottom: 9%;
+	justify-content: space-around;
+}
+.porttext{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	font-size: 165%;
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	padding-right: 3%;
+	padding-left:3%; 
 }
 div h1{
 	font-family: 'Audiowide', cursive;
@@ -159,6 +179,10 @@ footer{
 	margin:0 15%;
 	border-top: 2px solid white;
 }
+
+
+
+/*RESUME.html*/
 .rback{
 	background-image: url("../IMAGES/resume.jpg");
 	background-repeat: no-repeat;
@@ -166,6 +190,7 @@ footer{
 }
 .rmain{
 	display: flex;
+	flex-wrap: wrap;
 }
 .rdiv1{
 	flex:1 1;
@@ -179,6 +204,7 @@ footer{
 	margin:5%;
 	border-left:3px solid white;
 	padding-left: 3%;
+	min-width: 500px;
 }
 div h3{
 	font-family: 'Audiowide', cursive;
@@ -221,6 +247,12 @@ div h3{
 	padding-left: 5%;
 	padding-right: 5%;
 }
+.rskills{
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: space-around;
+}
 .skills{
 	flex: 1 1;
 	text-align: center;
@@ -229,6 +261,9 @@ div h3{
 	color: white;
 	padding-top: 15%;
 }
+
+
+/*Interests.html*/
 .iback{
 	background-image: url("../IMAGES/Interests.jpg");
 	background-repeat: no-repeat;
@@ -237,6 +272,7 @@ div h3{
 .interests{
 	display:flex;
 	flex-wrap: wrap;
+	justify-content: space-around;
 }
 .icons{
 	width:150px;
@@ -249,12 +285,15 @@ div h3{
 	padding-bottom: 10%;
 	padding-left: 1%;
 	padding-right: 1%;
+	min-width: 300px;
 }
 .rmback{
 	background-image: url("../IMAGES/reachme.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+/*ReachMe.html*/
 .odiv{
 	margin-top:4%;
 	margin-bottom: 4%;
@@ -280,4 +319,5 @@ div h3{
 	color: white;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 200%;
+	margin-bottom: 2%;
 }
