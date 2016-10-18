@@ -7,6 +7,7 @@
 	background:url("../IMAGES/background.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+	background-attachment: fixed;
 }
 
 nav ul{
@@ -184,9 +185,10 @@ footer{
 
 /*RESUME.html*/
 .rback{
-	background-image: url("../IMAGES/resume.jpg");
+	background-image: url("../IMAGES/new1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 }
 .rmain{
 	display: flex;
@@ -250,16 +252,45 @@ div h3{
 .rskills{
 	display: flex;
 	flex-wrap: wrap;
-	text-align: center;
-	justify-content: space-around;
+	margin-bottom: 3%;
 }
-.skills{
-	flex: 1 1;
-	text-align: center;
+.nskill{
+	flex: 1 1 ;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 225%;
 	color: white;
-	padding-top: 15%;
+	text-align: center;
+}
+.bar1{
+	margin-left: 60%;
+	margin-top: 1%;
+	height: 20px;
+	flex: 5 5 ;
+	background-color: lightgrey;
+}
+.bar2{
+	margin-left: 40%;
+	margin-top: 1%;
+	height: 20px;
+	flex: 5 5 ;
+	background-color: lightgrey;
+}
+.bar3{
+	margin-left: 45%;
+	margin-top: 1%;
+	height: 20px;
+	flex:5 5 ;
+	background-color: lightgrey;
+}
+.bar4{
+	margin-left: 50%;
+	margin-top: 1%;
+	height: 20px;
+	flex:5 5 ;
+	background-color: lightgrey;
+}
+.bar{
+	margin-right: 20%;
 }
 
 
@@ -329,4 +360,14 @@ div h3{
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 200%;
 	margin-bottom: 2%;
+}
+.ricons:hover{
+	filter: brightness(80%);
+	transition:0.3s;
+	transform:scale(1.02);
+}
+.icons:hover{
+	filter: brightness(80%);
+	transition:0.3s;
+	transform:scale(1.02);
 }
