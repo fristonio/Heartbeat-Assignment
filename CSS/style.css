@@ -1,6 +1,8 @@
 /*INDEX.html*/
-body{
-	font-size:100%;
+@media screen and (min-width: 1300px) {
+    body {
+       font-size:75%;
+    }
 }
 *{
 	margin: 0;
