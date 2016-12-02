@@ -10,7 +10,7 @@ div#preloader { position: fixed;
 }
 @media screen and (max-width: 1500px) {
     body {
-       font-size:65%;
+       font-size:50%;
     }
 }
 body{
