@@ -6,7 +6,7 @@ div#preloader { position: fixed;
   	width: 100%;
    	height: 100%; 
   	overflow: visible; 
-   	background: #190B2D	 url('../cube.gif') no-repeat center center; 
+   	background: #000 url('../cube.gif') no-repeat center center; 
 }
 @media screen and (max-width: 1500px) {
     body {
